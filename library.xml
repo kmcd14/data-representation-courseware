@@ -2,24 +2,24 @@
 <library>
     <books>
         <technical_books>
-            <book>
+            <book category ="Techical">
                 <ISBN>9781491957660</ISBN>
                 <title>Python for Data Analysis</title>
                 <author>Wes McKinney</author>
             </book>
-            <book>
+            <book category ="Techical">
                 <ISBN>9781593279929</ISBN>
                 <title>Automate the Boring Stuff with Python</title>
                 <author>Al Sweigart</author>
             </book>
         </technical_books>
         <cookery_books>
-            <book>
+            <book category ="Cookery">
                 <ISBN>0147529905, 9780147529909</ISBN>
                 <title>Simply Nigella</title>
                 <author>Nigella Lawson</author>
             </book>
-            <book>
+            <book category ="Cookery">
                 <ISBN>0307956059, 9780307956057</ISBN>
                 <title>The Barefoot Contessa Cookbook</title>
                 <author>Ina Garten</author>
