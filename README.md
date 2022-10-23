@@ -22,3 +22,15 @@ This repository contains all files relating to weekly assignments for Data Repre
     - I don't need you to reformat or analyse the data in any way
     - It should be about 10ish lines long (I have not counted)
 - You will need to find the dataset in CSO.ie, try economic and then finance.
+
+
+## Assignment 04
+
+- Write a program in python that will read a file from a repository.
+- The program should then replace all the instances of the text "Andrew" with your name
+- The program should then commit those changes and push the file back to the repository.
+
+<p>I do not need to see your keys. Save the program as assignment04-github.py to the same repository you uploaded the xml too. Marks will be given for the functionality and layout of the code; I do expect minimal comments to indicate you know what the program is doing.</p>
+
+
+
