@@ -15,7 +15,7 @@ url = "https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_API.ReadDataset/FIQ
 # Function to get the data
 def getData():
     response = requests.get(url)
-    print(response.json())
+    return response.json()
 
 
 if __name__ == "__main__":
