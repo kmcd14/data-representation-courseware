@@ -3,3 +3,5 @@ This is a text file for assignment04 which replaces any instances of the name An
 My name is Andrew.
 
 The first name of the data representation lecturer is Andrew.
+
+Goodbye from Andrew.
