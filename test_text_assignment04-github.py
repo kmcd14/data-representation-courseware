@@ -20,7 +20,7 @@ repo = g.get_repo('kmcd14/data-representation-courseware')
 
 
 # Get downloadurl
-fileInfo = repo.get_contents("assignment04.txt")
+fileInfo = repo.get_contents('\assignment04.txt')
 urlOfFile = fileInfo.download_url
 #print(urlOfFile)
 
