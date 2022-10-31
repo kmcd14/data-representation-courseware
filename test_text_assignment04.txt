@@ -1,7 +1,7 @@
-This is a text file for assignment04 which replaces any instances of the name Andrew, with my own (Katie).
+This is a text file for assignment04 which replaces any instances of the name Katie, with my own (Katie).
 
-My name is Andrew.
+My name is Katie.
 
-The first name of the data representation lecturer is Andrew.
+The first name of the data representation lecturer is Katie.
 
-Goodbye from Andrew.
+Goodbye from Katie.
