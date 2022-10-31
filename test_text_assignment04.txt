@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This is a text file for assignment04 which replaces any instances of the name Andrew, with my own (Katie).
 
 My name is Andrew.
@@ -6,6 +5,3 @@ My name is Andrew.
 The first name of the data representation lecturer is Andrew.
 
 Goodbye from Andrew.
-=======
-.
->>>>>>> c0790cc08101d0f691c59b9010316734bc833e24
