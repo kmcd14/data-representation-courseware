@@ -14,28 +14,23 @@ g = Github(apikey)
 repo = g.get_repo('kmcd14/data-representation-courseware')
 #print(repo.clone_url)
 
-# Reading all repo names
-#for repo in g.get_user().get_repos():
-    #print(repo.name)
-
 
 # Get downloadurl
-fileInfo = repo.get_contents('test_text_assignment04-github.py')
+fileInfo = repo.get_contents('test_text_assignment04.txt')
 urlOfFile = fileInfo.download_url
-print(urlOfFile)
+#print(urlOfFile)
 
 # Making a http request from the downloadurl 
 response = requests.get(urlOfFile)
 contentOfFile = response.text
-print(contentOfFile)
+#print(contentOfFile)
 
-# Adding new text
-#with open(contentOfFile) as fp:
-    #line = fp.readline()
-    #for line in fp:
-        #newContents = contentOfFile.replace('Andrew', 'Katie')
-    #print(newContents)
 
+# Replacing instances of 'Andrew' with 'Katie'
+newContents = contentOfFile.replace('Andrew', 'Katie')
+#print(newContents)
+
+        
 # Updating the file on git
-#gitHubResponse=repo.update_file(fileInfo.path,"updated by prog",newContents,fileInfo.sha)
+gitHubResponse=repo.update_file(fileInfo.path,'updatedtest_text_assignment04.txt',newContents,fileInfo.sha)
 #print(gitHubResponse)
