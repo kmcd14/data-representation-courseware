@@ -1,0 +1,5 @@
+This is a text file for assignment04 which replaces any instances of the name Andrew, with my own (Katie).
+
+My name is Andrew.
+
+The first name of the data representation lecturer is Andrew.
