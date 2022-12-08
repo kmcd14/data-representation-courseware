@@ -2,12 +2,12 @@
 <library>
     <books>
         <technical_books>
-            <book category ="Techical">
+            <book category ="Technical">
                 <ISBN>9781491957660</ISBN>
                 <title>Python for Data Analysis</title>
                 <author>Wes McKinney</author>
             </book>
-            <book category ="Techical">
+            <book category ="Technical">
                 <ISBN>9781593279929</ISBN>
                 <title>Automate the Boring Stuff with Python</title>
                 <author>Al Sweigart</author>
