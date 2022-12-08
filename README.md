@@ -5,7 +5,7 @@ This repository contains all files relating to weekly assignments for Data Repre
 ## Assignment 1.1 Create an XML
 ### Exercise 1.1
 
-Exercise is saved as library.xml.
+Exercise is saved as ```library.xml.```
 
 - Create an XML file that stores data for a library.
 - The library has two catalogues (technical books, and for cookery books).
@@ -16,7 +16,7 @@ Exercise is saved as library.xml.
 
 ## Assignment 03
 
-Exercise is saved as assignment03-cso.py. JSON file is saved as cso.json.
+Exercise is saved as ```assignment03-cso.py```. JSON file is saved as ```cso.json```.
 
 <p>Write a program that retrieves the dataset for the "exchequer account (historical series)" from the CSO, and stores it into a file called "cso.json"</p>
 
@@ -28,7 +28,7 @@ Exercise is saved as assignment03-cso.py. JSON file is saved as cso.json.
 
 ## Assignment 04
 
-Programme is saved as assignment04-github.py. The text file is saved as test_text_assignment04.
+Programme is saved as ```assignment04-github.py```. The text file is saved as ```test_text_assignment04```.
 
 - Write a program in python that will read a file from a repository.
 - The program should then replace all the instances of the text "Andrew" with your name
