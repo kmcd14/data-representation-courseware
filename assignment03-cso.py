@@ -19,6 +19,7 @@ def getData():
 
 
 if __name__ == "__main__":
-    # Storing in a json file.
+
+    # Writing and storing data in a json file.
     with open("cso.json","wt") as fp:
         print(json.dumps(getData()), file=fp)
