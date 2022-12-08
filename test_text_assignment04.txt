@@ -4,4 +4,4 @@ My name is Andrew.
 
 The first name of the data representation lecturer is Andrew.
 
-Goodbye from Andrew.
+Goodbye from Andrew
