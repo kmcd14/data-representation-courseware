@@ -4,9 +4,11 @@
 
 import requests 
 from github import Github
-from config import config as cfg
+from config import config as cfg # Importing key from private config file
 
-apikey = cfg['key']
+
+# API key for repository access
+apikey = cfg['key'] 
 g = Github(apikey)
 
 
@@ -20,6 +22,7 @@ fileInfo = repo.get_contents('test_text_assignment04.txt')
 urlOfFile = fileInfo.download_url
 #print(urlOfFile)
 
+
 # Making a http request from the downloadurl 
 response = requests.get(urlOfFile)
 contentOfFile = response.text
@@ -31,6 +34,6 @@ newContents = contentOfFile.replace('Andrew', 'Katie')
 #print(newContents)
 
         
-# Updating the file on git
+# Updating the file and pushing back to repository
 gitHubResponse=repo.update_file(fileInfo.path,'updatedtest_text_assignment04.txt',newContents,fileInfo.sha)
 #print(gitHubResponse)
